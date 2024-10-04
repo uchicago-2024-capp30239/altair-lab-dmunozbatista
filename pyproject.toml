@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "altair-lab-dmunozbatista"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Munoz <146023389+dmunozbatista@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+altair = "^5.4.1"
+pandas = "^2.2.3"
+vegafusion = "^1.6.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
